@@ -8,6 +8,7 @@ using namespace std;
 bool Solution::exist(vector<vector<char>> &board, string word){
     if (board.empty() || board[0].empty()) return false;
         int m = board.size(), n = board[0].size();
+        
         vector<vector<bool>> visited(m, vector<bool>(n)); //2-D vector which the previous is row and the last is column
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {

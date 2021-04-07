@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
         {'S','F','C','S'},
         {'A','D','E','E'}
     };
-    string word = "ABCCED";
+    string word = "SEE";
     Solution sul;
     bool res = sul.exist(board,word);
     cout << "res: " << boolalpha << res << endl;
